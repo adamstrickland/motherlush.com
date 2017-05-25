@@ -6,7 +6,7 @@ RewriteBase /
 RewriteRule ^index\.php$ - [L]
 RewriteCond %{REQUEST_FILENAME} !-f
 RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule wp-content/uploads/(.*) http://{PROD}/wp-content/uploads/$1 [NC,L]
 RewriteRule . /index.php [L]
 </IfModule>
-
 # END WordPress
