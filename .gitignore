@@ -41,3 +41,12 @@ Thumbs.db
 # WordPress junk
 .wp-config.php
 wp-config.php
+/wp-content/themes/twenty*
+/wp-content/upgrade
+/wp-content/uploads
+/sitemap.*
+*.sql
+
+# Hidden files
+*.sass-cache*
+*~imageoptim*
